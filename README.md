@@ -50,7 +50,7 @@ Ensure PostgreSQL is installed on your machine, then create a new database.
 ### 2. Backend Setup (NestJS)
    Navigate to the Backend Folder:
     
-    cd backend
+    cd backend_code
 Install Dependencies:
     
     npm install
@@ -68,7 +68,7 @@ The backend should now be running on http://localhost:3000.
    Navigate to the Frontend Folder:
 
 
-    cd frontend
+    cd frontend_code
 Install Dependencies:
 
     npm install

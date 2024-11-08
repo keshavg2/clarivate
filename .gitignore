@@ -1,0 +1,81 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+frontend_code/node_modules
+frontend_code/.pnp
+frontend_code/.pnp.js
+
+# testing
+frontend_code/coverage
+
+# production
+frontend_code/build
+
+# misc
+frontend_code/.DS_Store
+frontend_code/.env.local
+frontend_code/.env.development.local
+frontend_code/.env.test.local
+frontend_code/.env.production.local
+
+frontend_code/npm-debug.log*
+frontend_code/yarn-debug.log*
+frontend_code/yarn-error.log*
+
+# compiled output
+backend_code/dist
+backend_code/node_modules
+backend_code/build
+
+# Logs
+backend_code/logs
+backend/*.log
+backend_code/npm-debug.log*
+backend_code/pnpm-debug.log*
+backend_code/yarn-debug.log*
+backend_code/yarn-error.log*
+backend_code/lerna-debug.log*
+
+# OS
+backend_code/.DS_Store
+
+# Tests
+backend_code/coverage
+backend_code/.nyc_output
+
+# IDEs and editors
+backend_code/.idea
+backend_code/.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# dotenv environment variable files
+backend_code/.env
+backend_code/.env.development.local
+backend_code/.env.test.local
+backend_code/.env.production.local
+backend_code/.env.local
+
+# temp directory
+backend_code/.temp
+backend_code/.tmp
+
+# Runtime data
+backend_code/pids
+backend/*.pid
+backend/*.seed
+backend/*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
