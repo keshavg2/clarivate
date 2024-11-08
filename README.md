@@ -38,7 +38,10 @@ Ensure PostgreSQL is installed on your machine, then create a new database.
    ```sql
    CREATE DATABASE your_database_name;
 3. **Set up Environment Variables**: 
-    ```In the root project folder, create a .env file to store your database configuration (used by the backend):
+
+    In the root project folder, create a .env file to store your database configuration (used by the backend):
+    
+    ````
     DB_HOST=localhost
     DB_PORT=5432
     DB_USERNAME=your_username
