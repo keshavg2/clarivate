@@ -84,7 +84,7 @@ The frontend should now be running on http://localhost:3001 (or whatever port is
 ### 4. Testing
 To run tests for the backend (NestJS), follow these steps:
 
-    Navigate to Backend Folder:
+Navigate to Backend Folder:
 
     cd backend_code
 Run Tests:
