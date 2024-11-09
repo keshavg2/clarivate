@@ -80,3 +80,26 @@ Run the Frontend:
 
      PORT=3001 npm start
 The frontend should now be running on http://localhost:3001 (or whatever port is specified in package.json).
+
+### 4. Testing
+To run tests for the backend (NestJS), follow these steps:
+
+    Navigate to Backend Folder:
+
+    cd backend_code
+Run Tests:
+
+    npm run test
+This will run all the test files and output the results in the terminal.
+
+### 5. Accessing Swagger UI
+    Swagger documentation is automatically generated for the backend APIs.
+
+### Swagger URL:
+Once the backend server is running, you can access Swagger UI at http://localhost:3000/api.
+### Authorization: 
+For endpoints requiring authentication (like the dashboard), you’ll need to pass the JWT token:
+        
+        1. Click the "Authorize" button in Swagger.
+        2. Enter Bearer <your_jwt_token> in the Authorization field.
+        3. Click "Authorize" to apply the token to requests. 
