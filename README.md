@@ -93,7 +93,7 @@ Run Tests:
 This will run all the test files and output the results in the terminal.
 
 ### 5. Accessing Swagger UI
-    Swagger documentation is automatically generated for the backend APIs.
+Swagger documentation is automatically generated for the backend APIs.
 
 ### Swagger URL:
 Once the backend server is running, you can access Swagger UI at http://localhost:3000/api.
